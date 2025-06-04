@@ -1,3 +1,5 @@
 # Code Projects From My CS2 Class
 This repository contains projects from my CS2 class. 
-The language is either C++ or Python.
+CodeHS was our main IDE, so all tasks are from them.
+
+The coding language is either C++ or Python.
