@@ -1,0 +1,32 @@
+For the second part of this project, you are going to add a computer opponent.
+
+The game play is essentially the same. The player will take their turn and then the computer will take a turn. When the computer is playing, it will always continue while the round score is less than or equal to 15. Once they are over 15, it will bank its point (unless it rolls a 1 first).
+
+The game should continue until either the player or computer roll over 100 in the round. If both roll over 100 in the same round, the winner is the player with the higher total.
+
+Sample Output:
+
+Turn 1
+Your Current Score is: 0
+Computer Current Score is: 0
+This round you have: 0
+Would you like to roll or bank? roll
+
+You rolled a 6.
+This round you have: 6
+Would you like to roll or bank? roll
+
+You rolled a 1.
+You rolled a 1! You get a zero for this round!
+
+The computer rolled a 5
+This round the computer has: 5
+The computer chooses to roll again.
+
+The computer rolled a 3
+This round the computer has: 8
+The computer chooses to roll again.
+
+The computer rolled a 1. End of turn
+...
+Good try! The Computer won on 10 turns.
