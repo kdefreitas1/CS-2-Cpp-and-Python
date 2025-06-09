@@ -1,6 +1,47 @@
 # Instructions for the Game of Nim project given by CodeHS
 
-(This is the final part of the project) Now that you have a basic game on Nim down, you are going to make a variation. For this variation, you are going to create three stacks, each stack containing 10 items. The goal is still the same, take the last item, but now the players can take any number of items as long as they are from the same stack.
+(The project was split into 2 parts the current code is from the **final** part).
+
+## Part 1
+The Game of Nim is a mathematical strategy game where two players remove items from a stack in turn. The goal of the game is to be the player that removes the last item.
+
+There are many variations in the game and the rules, but for the first part of the project, you are going to create a game with a single stack of 15 items and each player can remove 1, 2, or 3 items in their turn.
+
+The game will start with the user taking a turn. The program should ask them how many objects they want to remove. It can be up to 3 items, or the maximum number of items remaining, whichever is less.
+
+After the user plays, the computer takes a turn. For this activity, the computer is not going to use any strategy, they will just pick a random number between 1 and the max available (the lesser of 3 and the number of remaining items).
+
+Play continues, alternating turns until one player takes the last item and wins the game.
+
+In creating your program, you should use at least two functions, `userTurn` and `computerTurn` . You may also want to add additional helper functions.
+
+**Sample Output:**
+```
+There are 15 items remaining.
+Your turn - pick up to 3: 3
+
+There are 12 items remaining.
+Computer takes 1
+
+There are 11 items remaining.
+Your turn - pick up to 3: 3
+
+There are 8 items remaining.
+Computer takes 2
+
+There are 6 items remaining.
+Your turn - pick up to 3: 2
+
+There are 4 items remaining.
+Computer takes 3
+
+There are 1 items remaining.
+Your turn - pick up to 1: 1
+
+Game over: User wins!
+```
+## Part 2
+Now that you have a basic game on Nim down, you are going to make a variation. For this variation, you are going to create three stacks, each stack containing 10 items. The goal is still the same, take the last item, but now the players can take any number of items as long as they are from the same stack.
 
 For example, in the first round, the user could take as few as 1 item or as many as 10 items from any one of the stacks.
 
