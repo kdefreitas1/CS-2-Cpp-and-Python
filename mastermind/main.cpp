@@ -46,7 +46,7 @@ vector<int> checkInputs(int numPegs, vector<int> userColors, vector<int> correct
 
 int main()
 {
-    int turns; // counts # of turns 
+    int turns = 0; // counts # of turns 
     int numPegs = readInt(1,8,"Please select the number of pegs (1-8): ", "Not in range of numbers try again: "); // asks user for # of pegs
     int numColors = readInt(1,8,"Please selct the number of colors (1-8): ", "Not in range of numbers try again: "); // asks user for # of colors
     vector<int> correctColors; // this stores the correct colors
