@@ -1,4 +1,4 @@
-# Here are instructions for the Game of Nim project given by CodeHS
+# Instructions for the Game of Nim project given by CodeHS
 
 Now that you have a basic game on Nim down, you are going to make a variation. For this variation, you are going to create three stacks, each stack containing 10 items. The goal is still the same, take the last item, but now the players can take any number of items as long as they are from the same stack.
 
