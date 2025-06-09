@@ -1,6 +1,6 @@
 # Instructions for the Game of Nim project given by CodeHS
 
-Now that you have a basic game on Nim down, you are going to make a variation. For this variation, you are going to create three stacks, each stack containing 10 items. The goal is still the same, take the last item, but now the players can take any number of items as long as they are from the same stack.
+(This is the final part of the project) Now that you have a basic game on Nim down, you are going to make a variation. For this variation, you are going to create three stacks, each stack containing 10 items. The goal is still the same, take the last item, but now the players can take any number of items as long as they are from the same stack.
 
 For example, in the first round, the user could take as few as 1 item or as many as 10 items from any one of the stacks.
 
@@ -12,10 +12,10 @@ The computer turn will function similarly to the player with the computer random
 
 Remember, you can only pick a stack if there is at least 1 item in the stack. You will want to make sure both the user and the computer follow this rule.
 
-You will need to modify your userTurn and computerTurn functions and will likely benefit from some additional helper functions.
+You will need to modify your `userTurn` and `computerTurn` functions and will likely benefit from some additional helper functions.
 
-Sample Output:
-
+**Sample Output:**
+```
 Stack 1  Stack 2  Stack 3
   10        10        10
 Pick a stack: 1
@@ -58,3 +58,4 @@ Pick a stack: 1
 Pick up to 1: 1
 
 Game over: User wins!
+```
