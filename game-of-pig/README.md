@@ -61,7 +61,7 @@ The game play is essentially the same. The player will take their turn and then 
 
 The game should continue until either the player or computer roll over 100 in the round. If both roll over 100 in the same round, the winner is the player with the higher total.
 
-Sample Output:
+**Sample Output:**
 ```
 Turn 1
 Your Current Score is: 0
